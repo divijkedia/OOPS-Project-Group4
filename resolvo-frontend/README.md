@@ -46,7 +46,7 @@ The backend initializes with pre-configured users across all three ITIL roles. U
 - **Dashboard (`/employee`)**: Personal ticket statistics, active ticket count, resolved count, and quick-report shortcut.
 - **Report Incident (`/employee/report`)**:
   - Real-time Jaccard token **Duplicate Detector** alerting users to similar ongoing outages.
-  - **AI Category Suggester** predicting incident category from title & description keywords.
+  - **Automated Category Suggester** predicting incident category from title & description keywords.
   - Live ITIL priority matrix calculator (`Impact x Urgency x Criticality`).
   - Pre-submission confirmation modal.
 - **My Incidents (`/employee/incidents`)**: Multi-filter incident list with search, status tabs, and SLA countdowns.
